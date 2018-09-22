@@ -17,5 +17,5 @@ What we are looking for:
 
 Resources
 - Docs on [built-in array method for looping](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) in javascript. Using this is optional.
-- Docs on [encoding text to UTF-12](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt).
-- Docs on [decoding text from UTF-12](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode).
+- Docs on [encoding text to UTF-16](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt).
+- Docs on [decoding text from UTF-16](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode).
