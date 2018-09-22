@@ -1,15 +1,31 @@
+let secretMessage = ['hello']
 
-const secret = '1234567890', ;
+let wordMessage = ['12345678901234567889']
 
-var index = 4;
-
-console.log('The character code ' + sentence.charCodeAt(index) + ' is equal to ' + sentence.charAt(index));
 const printToDom = (stringToPrint, divId) => {
     const selectedDiv = document.getElementById(divId);
     selectedDiv.innerHTML = stringToPrint;
 }
+let secretInput = document.getElementById("textarea");
 
-let secretInput = document.getElementById("textarea")
+let wordsInput = document.getElementById("textarea2");
 
-let wordsInput = document.getElementById("textarea2")
+const secretStringBuilder = () =>
+    let inputString = '';
+    for (let i = 0; i < secretUserInput.length; i++) {
+    inputString += secretMessage[secretUserInput[i]]
+    printToDom(inputString,'output')
+    }
+}
+
+const wordsStringBuilder = () => {
+    let inputString = '';
+    for (let i = 0; i < wordsUserInput.length; i++) {
+        inputString += wordMessage [wordhUserInput[i]]
+         printToDom(inputString, 'output');
+    }
+}
+document.getElementById("secretButton").addEventListener("click", secretStringBuilder);
+document.getElementById("wordsButton").addEventListener("click", wordsStringBuilder);
+
 
